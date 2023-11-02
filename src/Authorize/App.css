@@ -1,0 +1,10 @@
+.signInLeftColumn {
+    --mask: radial-gradient(27.33px at 50% calc(100% + 12.00px), #0000 calc(99% - 1px), #000 calc(101% - 1px) 99%, #0000 101%) calc(50% - 48px) calc(50% - 12.5px + .5px)/96px 25px, radial-gradient(27.33px at 50% -12px, #0000 calc(99% - 1px), #000 calc(101% - 1px) 99%, #0000 101%) 50% calc(50% + 12.5px)/96px 25px;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    background: linear-gradient(135deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b) fixed;
+}
+
+body {
+    background-color: #2D384A !important;
+}
